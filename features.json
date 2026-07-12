@@ -1,0 +1,6330 @@
+[
+  {
+    "name": "AI Advise",
+    "canonicalKey": "advise ai",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/supplements/ai-advise"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:529",
+        "route": "/api/supplements/ai-advise",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Generate",
+    "canonicalKey": "ai generate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/meal-plans/ai-generate",
+      "/api/recipes/ai-generate"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:195",
+        "route": "/api/meal-plans/ai-generate",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:340",
+        "route": "/api/recipes/ai-generate",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Guide",
+    "canonicalKey": "ai guide",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/fasting/ai-guide"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:636",
+        "route": "/api/fasting/ai-guide",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Message",
+    "canonicalKey": "ai message",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-message",
+      "/api/chat/ai-message"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:686",
+        "route": "/api/chat/ai-message",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/recalls.js:150",
+        "route": "/ai-message",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Optimize",
+    "canonicalKey": "ai optimize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-optimize",
+      "/api/grocery/ai-optimize",
+      "/batches/:id/ai-optimize"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "AINutritionDietitianAssistant",
+      "AIPrecisionFermentationProcessOptimizer",
+      "ihss_scheduling"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "server/routes/ai.js:249",
+        "route": "/batches/:id/ai-optimize",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/shifts.js:7",
+        "route": "/ai-optimize",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:459",
+        "route": "/api/grocery/ai-optimize",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/scheduling.js:175",
+        "route": "/ai-optimize",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Photo Analyze",
+    "canonicalKey": "ai analyze photo",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/calories/ai-photo-analyze"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:248",
+        "route": "/api/calories/ai-photo-analyze",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Plan",
+    "canonicalKey": "ai plan",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/fitness-meals/ai-plan"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:588",
+        "route": "/api/fitness-meals/ai-plan",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Recommend",
+    "canonicalKey": "ai recommend",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-recommend",
+      "/ai-recommend",
+      "/api/diet-recs/ai-recommend",
+      "/api/water/ai-recommend"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "AIDrugInteractionChecker",
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "backend/src/routes/guidelines.js:66",
+        "route": "/ai-recommend",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:408",
+        "route": "/api/diet-recs/ai-recommend",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:506",
+        "route": "/api/water/ai-recommend",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/treatments.js:74",
+        "route": "/:id/ai-recommend",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Therapy Chat",
+    "canonicalKey": "ai chat therapy",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:16",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Tools",
+    "canonicalKey": "ai",
+    "aliases": [
+      "AI",
+      "AI Center",
+      "AI Center Page",
+      "AI Feature Page",
+      "AI Features",
+      "AI New Tools",
+      "AI Tools Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AICenterPage",
+      "/AINewTools",
+      "/AIToolsPage",
+      "/AiFeaturePage",
+      "/ai",
+      "/ai-center",
+      "/ai-new-tools",
+      "/ai-tools",
+      "/dashboard/ai",
+      "/modules/ai",
+      "ai"
+    ],
+    "sourceProjects": [
+      "AIAcceleratedrug",
+      "AIClinicalTrialMatching",
+      "AIDentalPracticeManager",
+      "AIMedicalDeviceComplianceManager",
+      "AIMentalHealthCompanion",
+      "AIPrecisionFermentationProcessOptimizer",
+      "AIhomecompanion",
+      "ai-personalized-medicine",
+      "healthcare",
+      "industrial-capabilities-in-space",
+      "tetrascience"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "frontend/src/App.tsx:64",
+        "route": "ai",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "frontend/src/pages/AICenterPage.tsx",
+        "route": "/AICenterPage",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "tetrascience",
+        "path": "frontend/src/components/Sidebar.tsx:59",
+        "route": "",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/App.tsx:72",
+        "route": "/ai-center",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Dashboard.tsx:38",
+        "route": "/ai-center",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "frontend/src/components/Layout.tsx:42",
+        "route": "/ai-center",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:142",
+        "route": "/ai-tools",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:38",
+        "route": "/ai-tools",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/AIToolsPage.js",
+        "route": "/AIToolsPage",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/components/Sidebar.jsx:69",
+        "route": "",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/App.jsx:115",
+        "route": "/ai-center",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/pages/AICenterPage.jsx",
+        "route": "/AICenterPage",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAcceleratedrug",
+        "path": "frontend/src/pages/AiFeaturePage.jsx",
+        "route": "/AiFeaturePage",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/App.jsx:373",
+        "route": "/ai",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/components/Sidebar.jsx:57",
+        "route": "/ai",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/pages/Dashboard.jsx:54",
+        "route": "/ai",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:34",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:74",
+        "route": "/ai-tools",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:34",
+        "route": "/ai-tools",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx",
+        "route": "/AIToolsPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:145",
+        "route": "/ai-new-tools",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/App.js:84",
+        "route": "/ai-new-tools",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/AINewTools.js",
+        "route": "/AINewTools",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "healthcare",
+        "path": "src/app/(marketing)/modules/ai/page.tsx",
+        "route": "/modules/ai",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "healthcare",
+        "path": "src/app/dashboard/ai/page.tsx",
+        "route": "/dashboard/ai",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "healthcare",
+        "path": "src/components/layout/Sidebar.tsx:111",
+        "route": "",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "client/src/App.jsx:167",
+        "route": "/ai-tools",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "client/src/App.jsx:316",
+        "route": "/ai-tools",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "client/src/pages/AIToolsPage.jsx",
+        "route": "/AIToolsPage",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Activity Heatmap",
+    "canonicalKey": "activity heatmap",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/activity-heatmap"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/customViews.js:73",
+        "route": "/activity-heatmap",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Advance Care Planning Summary",
+    "canonicalKey": "advance care planning summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/advance-care-planning-summary"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:556",
+        "route": "/advance-care-planning-summary",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Advance Directive Summarizer",
+    "canonicalKey": "advance directive summarizer",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/advance-directive-summarizer"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:406",
+        "route": "/advance-directive-summarizer",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Affirmations",
+    "canonicalKey": "affirmation",
+    "aliases": [
+      "Affirmations Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AffirmationsPage",
+      "/affirmations"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:22",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:69",
+        "route": "/affirmations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:22",
+        "route": "/affirmations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:21",
+        "route": "/affirmations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AffirmationsPage.jsx",
+        "route": "/AffirmationsPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Allergy Detection",
+    "canonicalKey": "allergy detection",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/allergy-detection"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:800",
+        "route": "/api/ai/allergy-detection",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Assessments",
+    "canonicalKey": "assessment",
+    "aliases": [
+      "Assessments Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AssessmentsPage",
+      "/assessments"
+    ],
+    "sourceProjects": [
+      "AIHIPAATrainingComplianceAuditor",
+      "AIMentalHealthCompanion",
+      "AIPhysicalTherapyMovementAnalyzer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:27",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:65",
+        "route": "/assessments",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:27",
+        "route": "/assessments",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:17",
+        "route": "/assessments",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/components/Sidebar.jsx:11",
+        "route": "",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHIPAATrainingComplianceAuditor",
+        "path": "frontend/src/App.jsx:115",
+        "route": "/assessments",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHIPAATrainingComplianceAuditor",
+        "path": "frontend/src/App.jsx:1639",
+        "route": "/assessments",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHIPAATrainingComplianceAuditor",
+        "path": "frontend/src/App.jsx:409",
+        "route": "/assessments",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AssessmentsPage.jsx",
+        "route": "/AssessmentsPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Barcode Lookup",
+    "canonicalKey": "barcode lookup",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/barcode-lookup"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:995",
+        "route": "/api/barcode-lookup",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Batch03 Features",
+    "canonicalKey": "batch03",
+    "aliases": [
+      "Batch03"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch03Features",
+      "/batch03"
+    ],
+    "sourceProjects": [
+      "AIDrugInteractionChecker",
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/App.js:60",
+        "route": "/batch03",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/pages/Batch03Features.js",
+        "route": "/Batch03Features",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:54",
+        "route": "/batch03",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/Batch03Features.js",
+        "route": "/Batch03Features",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Bereavement Contact",
+    "canonicalKey": "bereavement contact",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bereavement-contact"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:353",
+        "route": "/bereavement-contact",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Bereavement Resources",
+    "canonicalKey": "bereavement resource",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bereavement-resources"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:155",
+        "route": "/bereavement-resources",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Bmi",
+    "canonicalKey": "bmi",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/bmi"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:477",
+        "route": "/api/bmi",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:479",
+        "route": "/api/bmi",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Breathing",
+    "canonicalKey": "breathing",
+    "aliases": [
+      "Breathing Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/BreathingPage",
+      "/breathing"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:20",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:62",
+        "route": "/breathing",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:20",
+        "route": "/breathing",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:14",
+        "route": "/breathing",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/BreathingPage.jsx",
+        "route": "/BreathingPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Calories",
+    "canonicalKey": "calory",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/calories"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:226",
+        "route": "/api/calories",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:228",
+        "route": "/api/calories",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Care Integrations",
+    "canonicalKey": "care integration",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/care-integrations"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:75",
+        "route": "/care-integrations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Care Plan Narrative",
+    "canonicalKey": "care narrative plan",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/care-plan-narrative"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:65",
+        "route": "/care-plan-narrative",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Care Rules",
+    "canonicalKey": "care rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/care-rules"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/customViews.js:165",
+        "route": "/care-rules",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/customViews.js:173",
+        "route": "/care-rules",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Caregiver Burden",
+    "canonicalKey": "burden caregiver",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/caregiver-burden"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:183",
+        "route": "/caregiver-burden",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Caregiver Burnout",
+    "canonicalKey": "burnout caregiver",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/caregiver-burnout"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiNew.js:195",
+        "route": "/caregiver-burnout",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Caregiver Chat",
+    "canonicalKey": "caregiver chat",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CaregiverChat",
+      "/caregiver-chat"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:90",
+        "route": "/caregiver-chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/CaregiverChat.js",
+        "route": "/CaregiverChat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Caregiver Notes",
+    "canonicalKey": "caregiver note",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/caregiver-notes"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:65",
+        "route": "/caregiver-notes",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cbt Record",
+    "canonicalKey": "cbt record",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cbt-record"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/journal.js:190",
+        "route": "/cbt-record",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cf Advance Care Planning Co Pilot Guiding",
+    "canonicalKey": "advance care cf co guiding pilot planning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAdvanceCarePlanningCoPilotGuiding"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/CfAdvanceCarePlanningCoPilotGuiding.jsx",
+        "route": "/CfAdvanceCarePlanningCoPilotGuiding",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agentic Hospice Care Coordinator Schedul",
+    "canonicalKey": "agentic care cf coordinator hospice schedul",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAgenticHospiceCareCoordinatorSchedul"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/CfAgenticHospiceCareCoordinatorSchedul.jsx",
+        "route": "/CfAgenticHospiceCareCoordinatorSchedul",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cf Grief Stage Detection Adaptive Support R",
+    "canonicalKey": "adaptive cf detection grief r stage support",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfGriefStageDetectionAdaptiveSupportR"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/CfGriefStageDetectionAdaptiveSupportR.jsx",
+        "route": "/CfGriefStageDetectionAdaptiveSupportR",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cf Legacy Letter Platform With Patient Reco",
+    "canonicalKey": "cf legacy letter patient reco with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfLegacyLetterPlatformWithPatientReco"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/CfLegacyLetterPlatformWithPatientReco.jsx",
+        "route": "/CfLegacyLetterPlatformWithPatientReco",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cf Pain Management AI Advisor Monitoring Sy",
+    "canonicalKey": "advisor ai cf monitoring pain sy",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPainManagementAiAdvisorMonitoringSy"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/CfPainManagementAiAdvisorMonitoringSy.jsx",
+        "route": "/CfPainManagementAiAdvisorMonitoringSy",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cf Volunteer Chaplain Scheduling Matching S",
+    "canonicalKey": "cf chaplain matching s scheduling volunteer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfVolunteerChaplainSchedulingMatchingS"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/CfVolunteerChaplainSchedulingMatchingS.jsx",
+        "route": "/CfVolunteerChaplainSchedulingMatchingS",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Chat",
+    "canonicalKey": "chat",
+    "aliases": [
+      "Chat Page"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ChatPage",
+      "/api/chat",
+      "/chat",
+      "/portal/chat"
+    ],
+    "sourceProjects": [
+      "AIDrugInteractionChecker",
+      "AIElderCareCompanion",
+      "AIMentalHealthCompanion",
+      "AINutritionDietitianAssistant",
+      "AIhomecompanion",
+      "healthcare"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "backend/src/routes/agenticPharmacist.js:12",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/routes/ai.js:21",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/advanceDirectiveChat.js:11",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:299",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:60",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:16",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:12",
+        "route": "/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:681",
+        "route": "/api/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:683",
+        "route": "/api/chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/ChatPage.jsx",
+        "route": "/ChatPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "healthcare",
+        "path": "src/app/portal/chat/page.tsx",
+        "route": "/portal/chat",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Coach",
+    "canonicalKey": "coach",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/coach"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/goals.js:106",
+        "route": "/:id/coach",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Cognitive Exercises",
+    "canonicalKey": "cognitive exercise",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/cognitive-exercises"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:164",
+        "route": "/cognitive-exercises",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:64",
+        "route": "/cognitive-exercises",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Comfort Kit Refill Predictor",
+    "canonicalKey": "comfort kit predictor refill",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ComfortKitRefillPredictor"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/ComfortKitRefillPredictor.js",
+        "route": "/ComfortKitRefillPredictor",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Comfort Measures",
+    "canonicalKey": "comfort measure",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/comfort-measures"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:264",
+        "route": "/comfort-measures",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Commit",
+    "canonicalKey": "commit",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/voice-meds-confirm/commit"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:435",
+        "route": "/voice-meds-confirm/commit",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Compliance Documentation",
+    "canonicalKey": "compliance documentation",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/compliance-documentation"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:228",
+        "route": "/compliance-documentation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Coping",
+    "canonicalKey": "coping",
+    "aliases": [
+      "Coping Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CopingPage",
+      "/coping"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:64",
+        "route": "/coping",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:25",
+        "route": "/coping",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:16",
+        "route": "/coping",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/CopingPage.jsx",
+        "route": "/CopingPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Coping Recommendation",
+    "canonicalKey": "coping recommendation",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/coping-recommendation"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/ai.js:62",
+        "route": "/coping-recommendation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Coping Strategies",
+    "canonicalKey": "coping strategy",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:25",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Crisis",
+    "canonicalKey": "crisis",
+    "aliases": [
+      "Crisis Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CrisisPage",
+      "/crisis"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:68",
+        "route": "/crisis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:30",
+        "route": "/crisis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:20",
+        "route": "/crisis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/CrisisPage.jsx",
+        "route": "/CrisisPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Crisis Assessment",
+    "canonicalKey": "assessment crisis",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/crisis-assessment"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/ai.js:33",
+        "route": "/crisis-assessment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Crisis Resources",
+    "canonicalKey": "crisis resource",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:30",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Daily Activities",
+    "canonicalKey": "activity daily",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/daily-activities"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:62",
+        "route": "/daily-activities",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Diet Recs",
+    "canonicalKey": "diet recs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/diet-recs"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:403",
+        "route": "/api/diet-recs",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:405",
+        "route": "/api/diet-recs",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Dietary Goal Forecast",
+    "canonicalKey": "dietary forecast goal",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/dietary-goal-forecast"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:779",
+        "route": "/api/ai/dietary-goal-forecast",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Draft",
+    "canonicalKey": "draft",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/draft"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/legacyMessages.js:37",
+        "route": "/draft",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Due",
+    "canonicalKey": "due",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/due"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/familyVideoMessages.js:42",
+        "route": "/due",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Due Contacts",
+    "canonicalKey": "contact due",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/due-contacts"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/bereavement.js:9",
+        "route": "/due-contacts",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Email",
+    "canonicalKey": "email",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sendgrid/email"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/integrations.js:49",
+        "route": "/sendgrid/email",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Contacts",
+    "canonicalKey": "contact emergency",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/emergency-contacts"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:61",
+        "route": "/emergency-contacts",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Env",
+    "canonicalKey": "env",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "../../.env",
+      "../.env"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion",
+      "AIHospitalBedResourceOptimizer",
+      "AIMentalHealthCompanion",
+      "AINutritionDietitianAssistant",
+      "AIPharmacyOperationsManager",
+      "AIResearchLiteratureAgent",
+      "AIhomecompanion",
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/middleware/auth.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/seed.js:3",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/server.js:4",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/services/openrouter.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/ai.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/middleware/auth.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/models/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/server.js:1",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/middleware/auth.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/seed.js:3",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/server.js:15",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/middleware/auth.js:2",
+        "route": "../../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/seed.js:3",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/server.js:4",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/database.js:4",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/index.js:6",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/middleware/auth.js:4",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/ai.js:1",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/db.js:2",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:12",
+        "route": "../.env",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fall Alerts",
+    "canonicalKey": "alert fall",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/fall-alerts"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:57",
+        "route": "/fall-alerts",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fall Detection Confirm",
+    "canonicalKey": "confirm detection fall",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/fall-detection-confirm"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiClinical.js:151",
+        "route": "/fall-detection-confirm",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fall Risk Assessment",
+    "canonicalKey": "assessment fall risk",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/fall-risk-assessment"
+    ],
+    "sourceProjects": [
+      "AIAgingInPlaceHomeModificationAssessor",
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAgingInPlaceHomeModificationAssessor",
+        "path": "backend/routes/ai.js:342",
+        "route": "/fall-risk-assessment",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:62",
+        "route": "/fall-risk-assessment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fall Risk Score",
+    "canonicalKey": "fall risk score",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/fall-risk-score"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiNew.js:114",
+        "route": "/fall-risk-score",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Family Checkin",
+    "canonicalKey": "checkin family",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/twilio/family-checkin"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/integrations.js:37",
+        "route": "/twilio/family-checkin",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Family Communication",
+    "canonicalKey": "communication family",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/family-communication"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:98",
+        "route": "/family-communication",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Family Meeting Agenda Generator",
+    "canonicalKey": "agenda family generator meeting",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/family-meeting-agenda-generator"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:436",
+        "route": "/family-meeting-agenda-generator",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Family Messages",
+    "canonicalKey": "family message",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/family-messages"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:82",
+        "route": "/family-messages",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Family Nutrition Sync",
+    "canonicalKey": "family nutrition sync",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/family-nutrition-sync"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:931",
+        "route": "/api/ai/family-nutrition-sync",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Family Summary Chat",
+    "canonicalKey": "chat family summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/family-summary-chat"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiNew.js:373",
+        "route": "/family-summary-chat",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fasting",
+    "canonicalKey": "fasting",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/fasting"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:631",
+        "route": "/api/fasting",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:633",
+        "route": "/api/fasting",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Feature Page",
+    "canonicalKey": "feature page",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/FeaturePage"
+    ],
+    "sourceProjects": [
+      "AIAutomatepharmaceutical",
+      "AIElderCareCompanion",
+      "AIHospiceCareManager",
+      "AIPredictdisease",
+      "AIhomecompanion",
+      "ihss_scheduling"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/patient-triagefor-er"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPredictdisease",
+        "path": "frontend/src/pages/FeaturePage.jsx",
+        "route": "/FeaturePage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "frontend/src/pages/FeaturePage.js",
+        "route": "/FeaturePage",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/pages/FeaturePage.jsx",
+        "route": "/FeaturePage",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ihss_scheduling",
+        "path": "frontend/src/pages/FeaturePage.js",
+        "route": "/FeaturePage",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/FeaturePage.js",
+        "route": "/FeaturePage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/FeaturePage.js",
+        "route": "/FeaturePage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Find Therapist",
+    "canonicalKey": "find therapist",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:31",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fitness Meals",
+    "canonicalKey": "fitness meal",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/fitness-meals"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:583",
+        "route": "/api/fitness-meals",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:585",
+        "route": "/api/fitness-meals",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Fitness Tracker Sync",
+    "canonicalKey": "fitness sync tracker",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/fitness-tracker-sync"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:1014",
+        "route": "/api/fitness-tracker-sync",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Cbt Exercise Generator",
+    "canonicalKey": "ai cbt exercise gap generator",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiCbtExerciseGenerator"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapAiCbtExerciseGenerator.jsx",
+        "route": "/GapAiCbtExerciseGenerator",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Group Moderation",
+    "canonicalKey": "ai gap group moderation",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiGroupModeration"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapAiGroupModeration.jsx",
+        "route": "/GapAiGroupModeration",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Medication Adherence Coach",
+    "canonicalKey": "adherence ai coach gap medication",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiMedicationAdherenceCoach"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapAiMedicationAdherenceCoach.jsx",
+        "route": "/GapAiMedicationAdherenceCoach",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap AI Relapse Risk Detector",
+    "canonicalKey": "ai detector gap relapse risk",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiRelapseRiskDetector"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapAiRelapseRiskDetector.jsx",
+        "route": "/GapAiRelapseRiskDetector",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Crisis",
+    "canonicalKey": "crisis gap",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapCrisis"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapCrisis.jsx",
+        "route": "/GapCrisis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Family",
+    "canonicalKey": "family gap",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapFamily"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapFamily.jsx",
+        "route": "/GapFamily",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Hipaa Grade",
+    "canonicalKey": "gap grade hipaa",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapHipaaGrade"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapHipaaGrade.jsx",
+        "route": "/GapHipaaGrade",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Ehr Integration No Hl7 Fhir Import Export",
+    "canonicalKey": "ehr export fhir gap hl7 import integration limited no",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-limited-ehr-integration-no-hl7-fhir-import-export"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:70",
+        "route": "/gap-limited-ehr-integration-no-hl7-fhir-import-export",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Notifications Module Only Internal Alerts",
+    "canonicalKey": "alert gap internal limited notifications only",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-limited-notifications-module-only-internal-alerts"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:73",
+        "route": "/gap-limited-notifications-module-only-internal-alerts",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No 30 Day Hospitalisation Readmission Predictor",
+    "canonicalKey": "30 day gap hospitalisation no predictor readmission",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-30-day-hospitalisation-readmission-predictor"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:65",
+        "route": "/gap-no-30-day-hospitalisation-readmission-predictor",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Advance Directive Summarizer For Care",
+    "canonicalKey": "advance care directive for gap no summarizer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAdvanceDirectiveSummarizerForCare"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoAdvanceDirectiveSummarizerForCare.jsx",
+        "route": "/GapNoAdvanceDirectiveSummarizerForCare",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Caregiver Burden Detector",
+    "canonicalKey": "burden caregiver detector gap no",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-caregiver-burden-detector"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:67",
+        "route": "/gap-no-caregiver-burden-detector",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Family Meeting Agenda Generator",
+    "canonicalKey": "agenda family gap generator meeting no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoFamilyMeetingAgendaGenerator"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoFamilyMeetingAgendaGenerator.jsx",
+        "route": "/GapNoFamilyMeetingAgendaGenerator",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No File Upload For Advance Directives",
+    "canonicalKey": "advance directive file for gap no upload",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoFileUploadForAdvanceDirectives"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoFileUploadForAdvanceDirectives.jsx",
+        "route": "/GapNoFileUploadForAdvanceDirectives",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Medication Cost Optimisation Generic Assistance Progra",
+    "canonicalKey": "assistance cost gap generic medication no optimisation progra",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-medication-cost-optimisation-generic-assistance-progra"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:66",
+        "route": "/gap-no-medication-cost-optimisation-generic-assistance-progra",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Medication Tracking Module",
+    "canonicalKey": "gap medication no tracking",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMedicationTrackingModule"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoMedicationTrackingModule.jsx",
+        "route": "/GapNoMedicationTrackingModule",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Native Telehealth Video Infrastructure Only Session Meta",
+    "canonicalKey": "gap infrastructure meta native no only session telehealth video",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-native-telehealth-video-infrastructure-only-session-meta"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:71",
+        "route": "/gap-no-native-telehealth-video-infrastructure-only-session-meta",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Nutrition Optimisation Engine Swallow Safe Recipes",
+    "canonicalKey": "engine gap no nutrition optimisation recipe safe swallow",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-nutrition-optimisation-engine-swallow-safe-recipes"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:68",
+        "route": "/gap-no-nutrition-optimisation-engine-swallow-safe-recipes",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Payment Billing Module",
+    "canonicalKey": "billing gap no payment",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPaymentBillingModule"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoPaymentBillingModule.jsx",
+        "route": "/GapNoPaymentBillingModule",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Prescription E Rx Routing",
+    "canonicalKey": "e gap no prescription routing rx",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-prescription-e-rx-routing"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:74",
+        "route": "/gap-no-prescription-e-rx-routing",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Standardized Painsymptom Assessment F",
+    "canonicalKey": "assessment f gap no painsymptom standardized",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoStandardizedPainsymptomAssessmentF"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoStandardizedPainsymptomAssessmentF.jsx",
+        "route": "/GapNoStandardizedPainsymptomAssessmentF",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Volunteer Coordination Module",
+    "canonicalKey": "coordination gap no volunteer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoVolunteerCoordinationModule"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoVolunteerCoordinationModule.jsx",
+        "route": "/GapNoVolunteerCoordinationModule",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Volunteer Need Matching AI",
+    "canonicalKey": "ai gap matching need no volunteer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoVolunteerNeedMatchingAi"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/GapNoVolunteerNeedMatchingAi.jsx",
+        "route": "/GapNoVolunteerNeedMatchingAi",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Wearables Ingestion No Apple Watch Oura Streaming Endpoi",
+    "canonicalKey": "apple endpoi gap ingestion no oura streaming watch wearables",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-wearables-ingestion-no-apple-watch-oura-streaming-endpoi"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:69",
+        "route": "/gap-no-wearables-ingestion-no-apple-watch-oura-streaming-endpoi",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhooks For Pharmacy Ehr Push Updates",
+    "canonicalKey": "ehr for gap no pharmacy push webhooks",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/gap-no-webhooks-for-pharmacy-ehr-push-updates"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/batch03Gaps.js:72",
+        "route": "/gap-no-webhooks-for-pharmacy-ehr-push-updates",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Peer",
+    "canonicalKey": "gap peer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapPeer"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapPeer.jsx",
+        "route": "/GapPeer",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Personalized",
+    "canonicalKey": "gap personalized",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapPersonalized"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapPersonalized.jsx",
+        "route": "/GapPersonalized",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Video",
+    "canonicalKey": "gap video",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapVideo"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapVideo.jsx",
+        "route": "/GapVideo",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Voice Based",
+    "canonicalKey": "based gap voice",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapVoiceBased"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapVoiceBased.jsx",
+        "route": "/GapVoiceBased",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gap Wearable",
+    "canonicalKey": "gap wearable",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapWearable"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GapWearable.jsx",
+        "route": "/GapWearable",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Goals",
+    "canonicalKey": "goal",
+    "aliases": [
+      "Goals Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/GoalsPage",
+      "/goals"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:26",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:66",
+        "route": "/goals",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:26",
+        "route": "/goals",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:18",
+        "route": "/goals",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GoalsPage.jsx",
+        "route": "/GoalsPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gratitude",
+    "canonicalKey": "gratitude",
+    "aliases": [
+      "Gratitude Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GratitudePage",
+      "/gratitude"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:71",
+        "route": "/gratitude",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:21",
+        "route": "/gratitude",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:23",
+        "route": "/gratitude",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GratitudePage.jsx",
+        "route": "/GratitudePage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Gratitude Log",
+    "canonicalKey": "gratitude log",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:21",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Grief Stage Detection",
+    "canonicalKey": "detection grief stage",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/grief-stage-detection"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:518",
+        "route": "/grief-stage-detection",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Grocery",
+    "canonicalKey": "grocery",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/grocery"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:454",
+        "route": "/api/grocery",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:456",
+        "route": "/api/grocery",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Grocery List From Meal Plans",
+    "canonicalKey": "from grocery meal plan",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/grocery-list-from-meal-plans"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:867",
+        "route": "/api/ai/grocery-list-from-meal-plans",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Grocery Shopping",
+    "canonicalKey": "grocery shopping",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/grocery-shopping"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:84",
+        "route": "/grocery-shopping",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Groups",
+    "canonicalKey": "group",
+    "aliases": [
+      "Groups Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GroupsPage",
+      "/groups"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:67",
+        "route": "/groups",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:29",
+        "route": "/groups",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:19",
+        "route": "/groups",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GroupsPage.jsx",
+        "route": "/GroupsPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Guide",
+    "canonicalKey": "guide",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/guide"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/advanceCarePlanning.js:39",
+        "route": "/guide",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Handoff",
+    "canonicalKey": "handoff",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/handoff"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/nursingHomeTransition.js:12",
+        "route": "/handoff",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Health Monitoring",
+    "canonicalKey": "health monitoring",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/health-monitoring"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:59",
+        "route": "/health-monitoring",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Health Summary",
+    "canonicalKey": "health summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/health-summary"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:89",
+        "route": "/health-summary",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Hipaa Audit Log",
+    "canonicalKey": "audit hipaa log",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/HipaaAuditLog",
+      "/hipaa-audit-log"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:91",
+        "route": "/hipaa-audit-log",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/HipaaAuditLog.js",
+        "route": "/HipaaAuditLog",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Home Safety",
+    "canonicalKey": "home safety",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/home-safety"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:69",
+        "route": "/home-safety",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Hospitalization Risk",
+    "canonicalKey": "hospitalization risk",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/hospitalization-risk"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:55",
+        "route": "/hospitalization-risk",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Housekeeping",
+    "canonicalKey": "housekeeping",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/housekeeping"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:85",
+        "route": "/housekeeping",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Hydration",
+    "canonicalKey": "hydration",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/hydration"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:71",
+        "route": "/hydration",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Immunizations",
+    "canonicalKey": "immunization",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/immunizations"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:75",
+        "route": "/immunizations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Import",
+    "canonicalKey": "import",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/dicom/import",
+      "/fitbit/import",
+      "/healthkit/import",
+      "/import"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion",
+      "AIPathologySlideAnalyzer",
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/extensions.js:120",
+        "route": "/dicom/import",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "backend/routes/papers.js:29",
+        "route": "/import",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/integrations.js:35",
+        "route": "/healthkit/import",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/integrations.js:47",
+        "route": "/fitbit/import",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Incident Reports",
+    "canonicalKey": "incident report",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/incident-reports"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:78",
+        "route": "/incident-reports",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Integrations And Care Page",
+    "canonicalKey": "and care integrations",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/IntegrationsAndCarePage"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/IntegrationsAndCarePage.jsx",
+        "route": "/IntegrationsAndCarePage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Intent",
+    "canonicalKey": "intent",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/voice-meds-confirm/intent"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:418",
+        "route": "/voice-meds-confirm/intent",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Join",
+    "canonicalKey": "join",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/join"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/groups.js:108",
+        "route": "/:id/join",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Journal",
+    "canonicalKey": "journal",
+    "aliases": [
+      "Journal Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/JournalPage",
+      "/journal"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:15",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:59",
+        "route": "/journal",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:15",
+        "route": "/journal",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:11",
+        "route": "/journal",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/JournalPage.jsx",
+        "route": "/JournalPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Journal Sentiment",
+    "canonicalKey": "journal sentiment",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/journal-sentiment"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/ai.js:10",
+        "route": "/journal-sentiment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Leave",
+    "canonicalKey": "leave",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/leave"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/groups.js:145",
+        "route": "/:id/leave",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Legal Documents",
+    "canonicalKey": "document legal",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/legal-documents"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:83",
+        "route": "/legal-documents",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Log",
+    "canonicalKey": "log",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/log",
+      "/cost-analytics/log",
+      "/log"
+    ],
+    "sourceProjects": [
+      "AIAutomatepharmaceutical",
+      "AIMentalHealthCompanion",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/integrations.js:102",
+        "route": "/log",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "backend/src/routes/aiFeatures.js:636",
+        "route": "/cost-analytics/log",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/medication.js:64",
+        "route": "/:id/log",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/medication.js:78",
+        "route": "/:id/log",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Match",
+    "canonicalKey": "match",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/match"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/therapists.js:120",
+        "route": "/match",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Meal Planning",
+    "canonicalKey": "meal planning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/meal-planning"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:63",
+        "route": "/meal-planning",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Meal Prep Planner",
+    "canonicalKey": "meal planner prep",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/meal-prep-planner"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:818",
+        "route": "/api/ai/meal-prep-planner",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Medical Equipment",
+    "canonicalKey": "equipment medical",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/medical-equipment"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:86",
+        "route": "/medical-equipment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Medication Adherence Predictor",
+    "canonicalKey": "adherence medication predictor",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/medication-adherence-predictor"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiNew.js:437",
+        "route": "/medication-adherence-predictor",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Medication Analysis",
+    "canonicalKey": "analysis medication",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/medication-analysis"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion",
+      "ai-personalized-medicine"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/ai.js:82",
+        "route": "/medication-analysis",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:35",
+        "route": "/medication-analysis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Medication Cost Optimizer",
+    "canonicalKey": "cost medication optimizer",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/medication-cost-optimizer"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:376",
+        "route": "/medication-cost-optimizer",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Medication Interaction Alert",
+    "canonicalKey": "alert interaction medication",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/MedicationInteractionAlert",
+      "/medication-interaction-alert"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiNew.js:34",
+        "route": "/medication-interaction-alert",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:88",
+        "route": "/medication-interaction-alert",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/MedicationInteractionAlert.js",
+        "route": "/MedicationInteractionAlert",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Meditation",
+    "canonicalKey": "meditation",
+    "aliases": [
+      "Meditation Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/MeditationPage",
+      "/meditation"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:19",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:61",
+        "route": "/meditation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:19",
+        "route": "/meditation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:13",
+        "route": "/meditation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/MeditationPage.jsx",
+        "route": "/MeditationPage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Meeting Summary",
+    "canonicalKey": "meeting summary",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/meeting-summary"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:190",
+        "route": "/meeting-summary",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Mine",
+    "canonicalKey": "mine",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/results/mine"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/assessments.js:159",
+        "route": "/results/mine",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Mood Insights",
+    "canonicalKey": "insight mood",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/mood-insights"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:211",
+        "route": "/mood-insights",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Mood Sleep Correlation",
+    "canonicalKey": "correlation mood sleep",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/mood-sleep-correlation"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/analytics.js:10",
+        "route": "/mood-sleep-correlation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Mood Tracker",
+    "canonicalKey": "mood tracker",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/MoodTracker"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:14",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/MoodTracker.jsx",
+        "route": "/MoodTracker",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Mood Tracking",
+    "canonicalKey": "mood tracking",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/mood-tracking"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:67",
+        "route": "/mood-tracking",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Mood Trend Analysis",
+    "canonicalKey": "analysis mood trend",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/mood-trend-analysis"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/ai.js:150",
+        "route": "/mood-trend-analysis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Moods",
+    "canonicalKey": "mood",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/moods"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/anomaly.js:15",
+        "route": "/moods",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:58",
+        "route": "/moods",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:14",
+        "route": "/moods",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:10",
+        "route": "/moods",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Nutrient Gap Identifier",
+    "canonicalKey": "gap identifier nutrient",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/nutrient-gap-identifier"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:901",
+        "route": "/api/ai/nutrient-gap-identifier",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Nutrition Optimize",
+    "canonicalKey": "nutrition optimize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/nutrition-optimize"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:327",
+        "route": "/nutrition-optimize",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Observations",
+    "canonicalKey": "observation",
+    "aliases": [
+      "Observation"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/Observation",
+      "/ehr-fhir/observations"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion",
+      "AIpoweredembryo"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/ehr.js:26",
+        "route": "/Observation",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:495",
+        "route": "/ehr-fhir/observations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Pain Management Advisor",
+    "canonicalKey": "advisor pain",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/pain-management-advisor"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:473",
+        "route": "/pain-management-advisor",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Predictive Decline",
+    "canonicalKey": "decline predictive",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/predictive-decline"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:292",
+        "route": "/predictive-decline",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Progress",
+    "canonicalKey": "progress",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/progress"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/goals.js:74",
+        "route": "/:id/progress",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Quick Analyze",
+    "canonicalKey": "analyze quick",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai-center/quick-analyze"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:737",
+        "route": "/api/ai-center/quick-analyze",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Random",
+    "canonicalKey": "random",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/random"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/affirmations.js:9",
+        "route": "/random",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Recommend",
+    "canonicalKey": "recommend",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/recommend"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion",
+      "industrial-capabilities-in-space"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "industrial-capabilities-in-space",
+        "path": "backend/routes/launch-economics.js:235",
+        "route": "/recommend",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/breathing.js:101",
+        "route": "/recommend",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/selfcare.js:88",
+        "route": "/recommend",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Request",
+    "canonicalKey": "request",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/request"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/voiceMedication.js:29",
+        "route": "/request",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Restaurant Nutrition Lookup",
+    "canonicalKey": "lookup nutrition restaurant",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/restaurant-nutrition-lookup"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:838",
+        "route": "/api/ai/restaurant-nutrition-lookup",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Safety Evaluation",
+    "canonicalKey": "evaluation safety",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/safety-evaluation"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:237",
+        "route": "/safety-evaluation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Safety Plan Adherence",
+    "canonicalKey": "adherence plan safety",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SafetyPlanAdherence",
+      "/safety-plan-adherence"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:76",
+        "route": "/safety-plan-adherence",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/SafetyPlanAdherence.jsx",
+        "route": "/SafetyPlanAdherence",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Self Care",
+    "canonicalKey": "care self",
+    "aliases": [
+      "Self Care Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/SelfCarePage"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:24",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/SelfCarePage.jsx",
+        "route": "/SelfCarePage",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Selfcare",
+    "canonicalKey": "selfcare",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/selfcare"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:63",
+        "route": "/selfcare",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:24",
+        "route": "/selfcare",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:15",
+        "route": "/selfcare",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Sleep Advisor",
+    "canonicalKey": "advisor sleep",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sleep-advisor"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/ai.js:126",
+        "route": "/sleep-advisor",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Sleep Analysis",
+    "canonicalKey": "analysis sleep",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sleep-analysis"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:185",
+        "route": "/sleep-analysis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Sleep Tracker",
+    "canonicalKey": "sleep tracker",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:17",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Sleep Tracking",
+    "canonicalKey": "sleep tracking",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/sleep-tracking"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:66",
+        "route": "/sleep-tracking",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Social Engagement",
+    "canonicalKey": "engagement social",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/social-engagement"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:58",
+        "route": "/social-engagement",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Social Recommendations",
+    "canonicalKey": "recommendation social",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/social-recommendations"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/ai.js:117",
+        "route": "/social-recommendations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Substitutions",
+    "canonicalKey": "substitution",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/substitutions"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:606",
+        "route": "/api/substitutions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:608",
+        "route": "/api/substitutions",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Suggest",
+    "canonicalKey": "suggest",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/suggest"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/coping.js:85",
+        "route": "/suggest",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Supplements",
+    "canonicalKey": "supplement",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/supplements"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:524",
+        "route": "/api/supplements",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:526",
+        "route": "/api/supplements",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Support Groups",
+    "canonicalKey": "group support",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:29",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Symptom Recommendations",
+    "canonicalKey": "recommendation symptom",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/symptom-recommendations"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/ai.js:126",
+        "route": "/symptom-recommendations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Take",
+    "canonicalKey": "take",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/take"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/assessments.js:85",
+        "route": "/:id/take",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Telehealth Session",
+    "canonicalKey": "session telehealth",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/telehealth-session"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:519",
+        "route": "/telehealth-session",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Telemedicine",
+    "canonicalKey": "telemedicine",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/telemedicine"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:70",
+        "route": "/telemedicine",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Therapist Match",
+    "canonicalKey": "match therapist",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/therapist-match"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/ai.js:92",
+        "route": "/therapist-match",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Transcribe",
+    "canonicalKey": "transcribe",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/transcribe",
+      "/voice/transcribe"
+    ],
+    "sourceProjects": [
+      "AIAutomatepharmaceutical",
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutomatepharmaceutical",
+        "path": "backend/src/routes/ai.js:243",
+        "route": "/transcribe",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/integrations.js:59",
+        "route": "/voice/transcribe",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Twilio",
+    "canonicalKey": "twilio",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sms/twilio"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/integrations.js:21",
+        "route": "/sms/twilio",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "backend/routes/integrations.js:102",
+        "route": "/sms/twilio",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Vet Appointments",
+    "canonicalKey": "appointment vet",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/vet-appointments"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/petCare.js:49",
+        "route": "/vet-appointments",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Visit Conflicts",
+    "canonicalKey": "conflict visit",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/visit-conflicts"
+    ],
+    "sourceProjects": [
+      "AIHospiceCareManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "server/routes/coordination.js:29",
+        "route": "/visit-conflicts",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Visitor Log",
+    "canonicalKey": "log visitor",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/visitor-log"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:76",
+        "route": "/visitor-log",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Vitals Trend",
+    "canonicalKey": "trend vitals",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/vitals-trend"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/customViews.js:36",
+        "route": "/vitals-trend",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Vitamins",
+    "canonicalKey": "vitamin",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/vitamins"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:654",
+        "route": "/api/vitamins",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:656",
+        "route": "/api/vitamins",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Voice Food Diary Parse",
+    "canonicalKey": "diary food parse voice",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/ai/voice-food-diary-parse"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:965",
+        "route": "/api/ai/voice-food-diary-parse",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Wandering Risk",
+    "canonicalKey": "risk wandering",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/WanderingRisk",
+      "/wandering-risk"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:89",
+        "route": "/wandering-risk",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/WanderingRisk.js",
+        "route": "/WanderingRisk",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Water",
+    "canonicalKey": "water",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/water"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:501",
+        "route": "/api/water",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:503",
+        "route": "/api/water",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Wearable Vitals",
+    "canonicalKey": "vital wearable",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/wearable-vitals"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiBacklog.js:461",
+        "route": "/wearable-vitals",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Weekly Care Summary",
+    "canonicalKey": "care summary weekly",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/weekly-care-summary"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiNew.js:274",
+        "route": "/weekly-care-summary",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Weekly Summary Pdf",
+    "canonicalKey": "pdf summary weekly",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/weekly-summary-pdf"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/customViews.js:101",
+        "route": "/weekly-summary-pdf",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Wound Care",
+    "canonicalKey": "care wound",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/wound-care"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:80",
+        "route": "/wound-care",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Wound Photo Assessment",
+    "canonicalKey": "assessment photo wound",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/wound-photo-assessment"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/routes/aiClinical.js:27",
+        "route": "/wound-photo-assessment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "X",
+    "canonicalKey": "x",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/x"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/middleware/rbac.js:11",
+        "route": "/x",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "backend/middleware/rbac.js:12",
+        "route": "/x",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  }
+]

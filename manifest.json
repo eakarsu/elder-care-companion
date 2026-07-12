@@ -1,0 +1,30 @@
+{
+  "id": "elder-care-companion",
+  "title": "Elder Care Companion App",
+  "industry": "Healthcare & Life Sciences",
+  "industryId": "healthcare-life-sciences",
+  "specialization": "Elder Care Companion",
+  "sourcePlatformGroup": "home-care-wellness-platform",
+  "sources": [
+    "AIElderCareCompanion",
+    "AIHospiceCareManager",
+    "AIMentalHealthCompanion",
+    "AINutritionDietitianAssistant"
+  ],
+  "featureCount": 195,
+  "candidateFeatureCount": 275,
+  "eliminatedSimilarFeatures": 80,
+  "evidenceCount": 352,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 17,
+    "seededRows": 255
+  },
+  "visibleFeatureCount": 15,
+  "featureVisibilityMode": "seeded-or-ai"
+}
