@@ -12,19 +12,19 @@
     "AINutritionDietitianAssistant"
   ],
   "featureCount": 195,
-  "candidateFeatureCount": 275,
-  "eliminatedSimilarFeatures": 80,
-  "evidenceCount": 352,
+  "candidateFeatureCount": 285,
+  "eliminatedSimilarFeatures": 90,
+  "evidenceCount": 365,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
   "databaseSeed": {
-    "seededProjects": 2,
-    "seededTables": 17,
-    "seededRows": 255
+    "seededProjects": 1,
+    "seededTables": 5,
+    "seededRows": 75
   },
-  "visibleFeatureCount": 15,
+  "visibleFeatureCount": 3,
   "featureVisibilityMode": "seeded-or-ai"
 }
