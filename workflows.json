@@ -97,151 +97,151 @@
           "id": "request-intake-001",
           "state": "draft",
           "reference": "ELDER-CARE-0001",
-          "subject": "Activity Heatmap — North Region — North Region",
+          "subject": "Activity Heatmap — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo request intake record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo request intake record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "request-intake-002",
           "state": "draft",
           "reference": "ELDER-CARE-0002",
-          "subject": "Activity Heatmap — Enterprise Account — Enterprise Account",
+          "subject": "Activity Heatmap — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo request intake record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo request intake record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "request-intake-003",
           "state": "draft",
           "reference": "ELDER-CARE-0003",
-          "subject": "Activity Heatmap — Quarterly Cycle — Quarterly Cycle",
+          "subject": "Activity Heatmap — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo request intake record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo request intake record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "request-intake-004",
           "state": "draft",
           "reference": "ELDER-CARE-0004",
-          "subject": "Activity Heatmap — Priority Queue — Priority Queue",
+          "subject": "Activity Heatmap — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo request intake record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo request intake record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "request-intake-005",
           "state": "draft",
           "reference": "ELDER-CARE-0005",
-          "subject": "Activity Heatmap — Operations Review — Operations Review",
+          "subject": "Activity Heatmap — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo request intake record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo request intake record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "request-intake-006",
           "state": "draft",
           "reference": "ELDER-CARE-0006",
-          "subject": "Activity Heatmap — Customer Request — Customer Request",
+          "subject": "Activity Heatmap — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo request intake record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo request intake record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "request-intake-007",
           "state": "draft",
           "reference": "ELDER-CARE-0007",
-          "subject": "Activity Heatmap — Compliance Check — Compliance Check",
+          "subject": "Activity Heatmap — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo request intake record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo request intake record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "request-intake-008",
           "state": "draft",
           "reference": "ELDER-CARE-0008",
-          "subject": "Activity Heatmap — Service Window — Service Window",
+          "subject": "Activity Heatmap — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo request intake record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo request intake record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "request-intake-009",
           "state": "draft",
           "reference": "ELDER-CARE-0009",
-          "subject": "Activity Heatmap — Quality Sample — Quality Sample",
+          "subject": "Activity Heatmap — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo request intake record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo request intake record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "request-intake-010",
           "state": "draft",
           "reference": "ELDER-CARE-0010",
-          "subject": "Activity Heatmap — Management Review — Management Review",
+          "subject": "Activity Heatmap — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo request intake record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo request intake record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "request-intake-011",
           "state": "draft",
           "reference": "ELDER-CARE-0011",
-          "subject": "Activity Heatmap — Exception Follow-up — Exception Follow-up",
+          "subject": "Activity Heatmap — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo request intake record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo request intake record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "request-intake-012",
           "state": "draft",
           "reference": "ELDER-CARE-0012",
-          "subject": "Activity Heatmap — Evidence Package — Evidence Package",
+          "subject": "Activity Heatmap — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo request intake record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo request intake record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "request-intake-013",
           "state": "draft",
           "reference": "ELDER-CARE-0013",
-          "subject": "Activity Heatmap — Planning Cycle — Planning Cycle",
+          "subject": "Activity Heatmap — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo request intake record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo request intake record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "request-intake-014",
           "state": "draft",
           "reference": "ELDER-CARE-0014",
-          "subject": "Activity Heatmap — Performance Review — Performance Review",
+          "subject": "Activity Heatmap — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo request intake record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo request intake record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "request-intake-015",
           "state": "draft",
           "reference": "ELDER-CARE-0015",
-          "subject": "Activity Heatmap — Final Verification — Final Verification",
+          "subject": "Activity Heatmap — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo request intake record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo request intake record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -341,151 +341,151 @@
           "id": "operations-queue-001",
           "state": "queued",
           "reference": "ELDER-CARE-0001",
-          "subject": "Affirmations — North Region — North Region",
+          "subject": "Affirmations — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo operations queue record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo operations queue record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "operations-queue-002",
           "state": "queued",
           "reference": "ELDER-CARE-0002",
-          "subject": "Affirmations — Enterprise Account — Enterprise Account",
+          "subject": "Affirmations — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo operations queue record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo operations queue record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "operations-queue-003",
           "state": "queued",
           "reference": "ELDER-CARE-0003",
-          "subject": "Affirmations — Quarterly Cycle — Quarterly Cycle",
+          "subject": "Affirmations — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo operations queue record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo operations queue record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "operations-queue-004",
           "state": "queued",
           "reference": "ELDER-CARE-0004",
-          "subject": "Affirmations — Priority Queue — Priority Queue",
+          "subject": "Affirmations — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo operations queue record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo operations queue record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "operations-queue-005",
           "state": "queued",
           "reference": "ELDER-CARE-0005",
-          "subject": "Affirmations — Operations Review — Operations Review",
+          "subject": "Affirmations — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo operations queue record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo operations queue record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "operations-queue-006",
           "state": "queued",
           "reference": "ELDER-CARE-0006",
-          "subject": "Affirmations — Customer Request — Customer Request",
+          "subject": "Affirmations — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo operations queue record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo operations queue record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "operations-queue-007",
           "state": "queued",
           "reference": "ELDER-CARE-0007",
-          "subject": "Affirmations — Compliance Check — Compliance Check",
+          "subject": "Affirmations — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo operations queue record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo operations queue record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "operations-queue-008",
           "state": "queued",
           "reference": "ELDER-CARE-0008",
-          "subject": "Affirmations — Service Window — Service Window",
+          "subject": "Affirmations — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo operations queue record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo operations queue record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "operations-queue-009",
           "state": "queued",
           "reference": "ELDER-CARE-0009",
-          "subject": "Affirmations — Quality Sample — Quality Sample",
+          "subject": "Affirmations — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo operations queue record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo operations queue record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "operations-queue-010",
           "state": "queued",
           "reference": "ELDER-CARE-0010",
-          "subject": "Affirmations — Management Review — Management Review",
+          "subject": "Affirmations — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo operations queue record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo operations queue record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "operations-queue-011",
           "state": "queued",
           "reference": "ELDER-CARE-0011",
-          "subject": "Affirmations — Exception Follow-up — Exception Follow-up",
+          "subject": "Affirmations — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo operations queue record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo operations queue record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "operations-queue-012",
           "state": "queued",
           "reference": "ELDER-CARE-0012",
-          "subject": "Affirmations — Evidence Package — Evidence Package",
+          "subject": "Affirmations — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo operations queue record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo operations queue record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "operations-queue-013",
           "state": "queued",
           "reference": "ELDER-CARE-0013",
-          "subject": "Affirmations — Planning Cycle — Planning Cycle",
+          "subject": "Affirmations — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo operations queue record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo operations queue record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "operations-queue-014",
           "state": "queued",
           "reference": "ELDER-CARE-0014",
-          "subject": "Affirmations — Performance Review — Performance Review",
+          "subject": "Affirmations — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo operations queue record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo operations queue record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "operations-queue-015",
           "state": "queued",
           "reference": "ELDER-CARE-0015",
-          "subject": "Affirmations — Final Verification — Final Verification",
+          "subject": "Affirmations — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo operations queue record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo operations queue record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -584,151 +584,151 @@
           "id": "quality-review-001",
           "state": "pending",
           "reference": "ELDER-CARE-0001",
-          "subject": "AI Advise — North Region — North Region",
+          "subject": "AI Advise — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo quality review record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo quality review record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "quality-review-002",
           "state": "pending",
           "reference": "ELDER-CARE-0002",
-          "subject": "AI Advise — Enterprise Account — Enterprise Account",
+          "subject": "AI Advise — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo quality review record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo quality review record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "quality-review-003",
           "state": "pending",
           "reference": "ELDER-CARE-0003",
-          "subject": "AI Advise — Quarterly Cycle — Quarterly Cycle",
+          "subject": "AI Advise — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo quality review record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo quality review record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "quality-review-004",
           "state": "pending",
           "reference": "ELDER-CARE-0004",
-          "subject": "AI Advise — Priority Queue — Priority Queue",
+          "subject": "AI Advise — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo quality review record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo quality review record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "quality-review-005",
           "state": "pending",
           "reference": "ELDER-CARE-0005",
-          "subject": "AI Advise — Operations Review — Operations Review",
+          "subject": "AI Advise — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo quality review record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo quality review record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "quality-review-006",
           "state": "pending",
           "reference": "ELDER-CARE-0006",
-          "subject": "AI Advise — Customer Request — Customer Request",
+          "subject": "AI Advise — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo quality review record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo quality review record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "quality-review-007",
           "state": "pending",
           "reference": "ELDER-CARE-0007",
-          "subject": "AI Advise — Compliance Check — Compliance Check",
+          "subject": "AI Advise — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo quality review record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo quality review record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "quality-review-008",
           "state": "pending",
           "reference": "ELDER-CARE-0008",
-          "subject": "AI Advise — Service Window — Service Window",
+          "subject": "AI Advise — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo quality review record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo quality review record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "quality-review-009",
           "state": "pending",
           "reference": "ELDER-CARE-0009",
-          "subject": "AI Advise — Quality Sample — Quality Sample",
+          "subject": "AI Advise — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo quality review record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo quality review record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "quality-review-010",
           "state": "pending",
           "reference": "ELDER-CARE-0010",
-          "subject": "AI Advise — Management Review — Management Review",
+          "subject": "AI Advise — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo quality review record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo quality review record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "quality-review-011",
           "state": "pending",
           "reference": "ELDER-CARE-0011",
-          "subject": "AI Advise — Exception Follow-up — Exception Follow-up",
+          "subject": "AI Advise — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo quality review record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo quality review record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "quality-review-012",
           "state": "pending",
           "reference": "ELDER-CARE-0012",
-          "subject": "AI Advise — Evidence Package — Evidence Package",
+          "subject": "AI Advise — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo quality review record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo quality review record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "quality-review-013",
           "state": "pending",
           "reference": "ELDER-CARE-0013",
-          "subject": "AI Advise — Planning Cycle — Planning Cycle",
+          "subject": "AI Advise — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo quality review record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo quality review record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "quality-review-014",
           "state": "pending",
           "reference": "ELDER-CARE-0014",
-          "subject": "AI Advise — Performance Review — Performance Review",
+          "subject": "AI Advise — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo quality review record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo quality review record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "quality-review-015",
           "state": "pending",
           "reference": "ELDER-CARE-0015",
-          "subject": "AI Advise — Final Verification — Final Verification",
+          "subject": "AI Advise — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo quality review record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo quality review record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -827,151 +827,151 @@
           "id": "risk-assessment-001",
           "state": "identified",
           "reference": "ELDER-CARE-0001",
-          "subject": "AI Generate — North Region — North Region",
+          "subject": "AI Generate — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo risk assessment record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo risk assessment record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "risk-assessment-002",
           "state": "identified",
           "reference": "ELDER-CARE-0002",
-          "subject": "AI Generate — Enterprise Account — Enterprise Account",
+          "subject": "AI Generate — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo risk assessment record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo risk assessment record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "risk-assessment-003",
           "state": "identified",
           "reference": "ELDER-CARE-0003",
-          "subject": "AI Generate — Quarterly Cycle — Quarterly Cycle",
+          "subject": "AI Generate — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo risk assessment record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo risk assessment record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "risk-assessment-004",
           "state": "identified",
           "reference": "ELDER-CARE-0004",
-          "subject": "AI Generate — Priority Queue — Priority Queue",
+          "subject": "AI Generate — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo risk assessment record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo risk assessment record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "risk-assessment-005",
           "state": "identified",
           "reference": "ELDER-CARE-0005",
-          "subject": "AI Generate — Operations Review — Operations Review",
+          "subject": "AI Generate — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo risk assessment record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo risk assessment record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "risk-assessment-006",
           "state": "identified",
           "reference": "ELDER-CARE-0006",
-          "subject": "AI Generate — Customer Request — Customer Request",
+          "subject": "AI Generate — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo risk assessment record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo risk assessment record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "risk-assessment-007",
           "state": "identified",
           "reference": "ELDER-CARE-0007",
-          "subject": "AI Generate — Compliance Check — Compliance Check",
+          "subject": "AI Generate — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo risk assessment record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo risk assessment record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "risk-assessment-008",
           "state": "identified",
           "reference": "ELDER-CARE-0008",
-          "subject": "AI Generate — Service Window — Service Window",
+          "subject": "AI Generate — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo risk assessment record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo risk assessment record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "risk-assessment-009",
           "state": "identified",
           "reference": "ELDER-CARE-0009",
-          "subject": "AI Generate — Quality Sample — Quality Sample",
+          "subject": "AI Generate — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo risk assessment record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo risk assessment record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "risk-assessment-010",
           "state": "identified",
           "reference": "ELDER-CARE-0010",
-          "subject": "AI Generate — Management Review — Management Review",
+          "subject": "AI Generate — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo risk assessment record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo risk assessment record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "risk-assessment-011",
           "state": "identified",
           "reference": "ELDER-CARE-0011",
-          "subject": "AI Generate — Exception Follow-up — Exception Follow-up",
+          "subject": "AI Generate — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo risk assessment record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo risk assessment record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "risk-assessment-012",
           "state": "identified",
           "reference": "ELDER-CARE-0012",
-          "subject": "AI Generate — Evidence Package — Evidence Package",
+          "subject": "AI Generate — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo risk assessment record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo risk assessment record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "risk-assessment-013",
           "state": "identified",
           "reference": "ELDER-CARE-0013",
-          "subject": "AI Generate — Planning Cycle — Planning Cycle",
+          "subject": "AI Generate — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo risk assessment record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo risk assessment record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "risk-assessment-014",
           "state": "identified",
           "reference": "ELDER-CARE-0014",
-          "subject": "AI Generate — Performance Review — Performance Review",
+          "subject": "AI Generate — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo risk assessment record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo risk assessment record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "risk-assessment-015",
           "state": "identified",
           "reference": "ELDER-CARE-0015",
-          "subject": "AI Generate — Final Verification — Final Verification",
+          "subject": "AI Generate — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo risk assessment record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo risk assessment record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -1069,151 +1069,151 @@
           "id": "evidence-management-001",
           "state": "requested",
           "reference": "ELDER-CARE-0001",
-          "subject": "AI Guide — North Region — North Region",
+          "subject": "AI Guide — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo evidence management record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo evidence management record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "evidence-management-002",
           "state": "requested",
           "reference": "ELDER-CARE-0002",
-          "subject": "AI Guide — Enterprise Account — Enterprise Account",
+          "subject": "AI Guide — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo evidence management record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo evidence management record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "evidence-management-003",
           "state": "requested",
           "reference": "ELDER-CARE-0003",
-          "subject": "AI Guide — Quarterly Cycle — Quarterly Cycle",
+          "subject": "AI Guide — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo evidence management record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo evidence management record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "evidence-management-004",
           "state": "requested",
           "reference": "ELDER-CARE-0004",
-          "subject": "AI Guide — Priority Queue — Priority Queue",
+          "subject": "AI Guide — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo evidence management record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo evidence management record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "evidence-management-005",
           "state": "requested",
           "reference": "ELDER-CARE-0005",
-          "subject": "AI Guide — Operations Review — Operations Review",
+          "subject": "AI Guide — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo evidence management record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo evidence management record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "evidence-management-006",
           "state": "requested",
           "reference": "ELDER-CARE-0006",
-          "subject": "AI Guide — Customer Request — Customer Request",
+          "subject": "AI Guide — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo evidence management record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo evidence management record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "evidence-management-007",
           "state": "requested",
           "reference": "ELDER-CARE-0007",
-          "subject": "AI Guide — Compliance Check — Compliance Check",
+          "subject": "AI Guide — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo evidence management record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo evidence management record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "evidence-management-008",
           "state": "requested",
           "reference": "ELDER-CARE-0008",
-          "subject": "AI Guide — Service Window — Service Window",
+          "subject": "AI Guide — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo evidence management record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo evidence management record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "evidence-management-009",
           "state": "requested",
           "reference": "ELDER-CARE-0009",
-          "subject": "AI Guide — Quality Sample — Quality Sample",
+          "subject": "AI Guide — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo evidence management record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo evidence management record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "evidence-management-010",
           "state": "requested",
           "reference": "ELDER-CARE-0010",
-          "subject": "AI Guide — Management Review — Management Review",
+          "subject": "AI Guide — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo evidence management record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo evidence management record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "evidence-management-011",
           "state": "requested",
           "reference": "ELDER-CARE-0011",
-          "subject": "AI Guide — Exception Follow-up — Exception Follow-up",
+          "subject": "AI Guide — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo evidence management record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo evidence management record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "evidence-management-012",
           "state": "requested",
           "reference": "ELDER-CARE-0012",
-          "subject": "AI Guide — Evidence Package — Evidence Package",
+          "subject": "AI Guide — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo evidence management record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo evidence management record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "evidence-management-013",
           "state": "requested",
           "reference": "ELDER-CARE-0013",
-          "subject": "AI Guide — Planning Cycle — Planning Cycle",
+          "subject": "AI Guide — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo evidence management record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo evidence management record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "evidence-management-014",
           "state": "requested",
           "reference": "ELDER-CARE-0014",
-          "subject": "AI Guide — Performance Review — Performance Review",
+          "subject": "AI Guide — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo evidence management record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo evidence management record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "evidence-management-015",
           "state": "requested",
           "reference": "ELDER-CARE-0015",
-          "subject": "AI Guide — Final Verification — Final Verification",
+          "subject": "AI Guide — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo evidence management record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo evidence management record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -1312,151 +1312,151 @@
           "id": "exception-resolution-001",
           "state": "open",
           "reference": "ELDER-CARE-0001",
-          "subject": "AI Message — North Region — North Region",
+          "subject": "AI Message — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo exception resolution record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo exception resolution record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "exception-resolution-002",
           "state": "open",
           "reference": "ELDER-CARE-0002",
-          "subject": "AI Message — Enterprise Account — Enterprise Account",
+          "subject": "AI Message — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo exception resolution record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo exception resolution record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "exception-resolution-003",
           "state": "open",
           "reference": "ELDER-CARE-0003",
-          "subject": "AI Message — Quarterly Cycle — Quarterly Cycle",
+          "subject": "AI Message — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo exception resolution record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo exception resolution record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "exception-resolution-004",
           "state": "open",
           "reference": "ELDER-CARE-0004",
-          "subject": "AI Message — Priority Queue — Priority Queue",
+          "subject": "AI Message — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo exception resolution record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo exception resolution record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "exception-resolution-005",
           "state": "open",
           "reference": "ELDER-CARE-0005",
-          "subject": "AI Message — Operations Review — Operations Review",
+          "subject": "AI Message — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo exception resolution record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo exception resolution record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "exception-resolution-006",
           "state": "open",
           "reference": "ELDER-CARE-0006",
-          "subject": "AI Message — Customer Request — Customer Request",
+          "subject": "AI Message — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo exception resolution record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo exception resolution record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "exception-resolution-007",
           "state": "open",
           "reference": "ELDER-CARE-0007",
-          "subject": "AI Message — Compliance Check — Compliance Check",
+          "subject": "AI Message — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo exception resolution record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo exception resolution record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "exception-resolution-008",
           "state": "open",
           "reference": "ELDER-CARE-0008",
-          "subject": "AI Message — Service Window — Service Window",
+          "subject": "AI Message — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo exception resolution record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo exception resolution record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "exception-resolution-009",
           "state": "open",
           "reference": "ELDER-CARE-0009",
-          "subject": "AI Message — Quality Sample — Quality Sample",
+          "subject": "AI Message — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo exception resolution record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo exception resolution record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "exception-resolution-010",
           "state": "open",
           "reference": "ELDER-CARE-0010",
-          "subject": "AI Message — Management Review — Management Review",
+          "subject": "AI Message — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo exception resolution record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo exception resolution record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "exception-resolution-011",
           "state": "open",
           "reference": "ELDER-CARE-0011",
-          "subject": "AI Message — Exception Follow-up — Exception Follow-up",
+          "subject": "AI Message — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo exception resolution record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo exception resolution record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "exception-resolution-012",
           "state": "open",
           "reference": "ELDER-CARE-0012",
-          "subject": "AI Message — Evidence Package — Evidence Package",
+          "subject": "AI Message — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo exception resolution record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo exception resolution record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "exception-resolution-013",
           "state": "open",
           "reference": "ELDER-CARE-0013",
-          "subject": "AI Message — Planning Cycle — Planning Cycle",
+          "subject": "AI Message — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo exception resolution record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo exception resolution record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "exception-resolution-014",
           "state": "open",
           "reference": "ELDER-CARE-0014",
-          "subject": "AI Message — Performance Review — Performance Review",
+          "subject": "AI Message — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo exception resolution record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo exception resolution record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "exception-resolution-015",
           "state": "open",
           "reference": "ELDER-CARE-0015",
-          "subject": "AI Message — Final Verification — Final Verification",
+          "subject": "AI Message — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo exception resolution record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo exception resolution record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -1555,151 +1555,151 @@
           "id": "approval-control-001",
           "state": "prepared",
           "reference": "ELDER-CARE-0001",
-          "subject": "AI Photo Analyze — North Region — North Region",
+          "subject": "AI Photo Analyze — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo approval control record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo approval control record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "approval-control-002",
           "state": "prepared",
           "reference": "ELDER-CARE-0002",
-          "subject": "AI Photo Analyze — Enterprise Account — Enterprise Account",
+          "subject": "AI Photo Analyze — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo approval control record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo approval control record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "approval-control-003",
           "state": "prepared",
           "reference": "ELDER-CARE-0003",
-          "subject": "AI Photo Analyze — Quarterly Cycle — Quarterly Cycle",
+          "subject": "AI Photo Analyze — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo approval control record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo approval control record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "approval-control-004",
           "state": "prepared",
           "reference": "ELDER-CARE-0004",
-          "subject": "AI Photo Analyze — Priority Queue — Priority Queue",
+          "subject": "AI Photo Analyze — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo approval control record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo approval control record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "approval-control-005",
           "state": "prepared",
           "reference": "ELDER-CARE-0005",
-          "subject": "AI Photo Analyze — Operations Review — Operations Review",
+          "subject": "AI Photo Analyze — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo approval control record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo approval control record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "approval-control-006",
           "state": "prepared",
           "reference": "ELDER-CARE-0006",
-          "subject": "AI Photo Analyze — Customer Request — Customer Request",
+          "subject": "AI Photo Analyze — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo approval control record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo approval control record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "approval-control-007",
           "state": "prepared",
           "reference": "ELDER-CARE-0007",
-          "subject": "AI Photo Analyze — Compliance Check — Compliance Check",
+          "subject": "AI Photo Analyze — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo approval control record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo approval control record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "approval-control-008",
           "state": "prepared",
           "reference": "ELDER-CARE-0008",
-          "subject": "AI Photo Analyze — Service Window — Service Window",
+          "subject": "AI Photo Analyze — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo approval control record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo approval control record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "approval-control-009",
           "state": "prepared",
           "reference": "ELDER-CARE-0009",
-          "subject": "AI Photo Analyze — Quality Sample — Quality Sample",
+          "subject": "AI Photo Analyze — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo approval control record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo approval control record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "approval-control-010",
           "state": "prepared",
           "reference": "ELDER-CARE-0010",
-          "subject": "AI Photo Analyze — Management Review — Management Review",
+          "subject": "AI Photo Analyze — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo approval control record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo approval control record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "approval-control-011",
           "state": "prepared",
           "reference": "ELDER-CARE-0011",
-          "subject": "AI Photo Analyze — Exception Follow-up — Exception Follow-up",
+          "subject": "AI Photo Analyze — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo approval control record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo approval control record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "approval-control-012",
           "state": "prepared",
           "reference": "ELDER-CARE-0012",
-          "subject": "AI Photo Analyze — Evidence Package — Evidence Package",
+          "subject": "AI Photo Analyze — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo approval control record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo approval control record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "approval-control-013",
           "state": "prepared",
           "reference": "ELDER-CARE-0013",
-          "subject": "AI Photo Analyze — Planning Cycle — Planning Cycle",
+          "subject": "AI Photo Analyze — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo approval control record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo approval control record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "approval-control-014",
           "state": "prepared",
           "reference": "ELDER-CARE-0014",
-          "subject": "AI Photo Analyze — Performance Review — Performance Review",
+          "subject": "AI Photo Analyze — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo approval control record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo approval control record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "approval-control-015",
           "state": "prepared",
           "reference": "ELDER-CARE-0015",
-          "subject": "AI Photo Analyze — Final Verification — Final Verification",
+          "subject": "AI Photo Analyze — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo approval control record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo approval control record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -1798,151 +1798,151 @@
           "id": "performance-reporting-001",
           "state": "requested",
           "reference": "ELDER-CARE-0001",
-          "subject": "AI Plan — North Region — North Region",
+          "subject": "AI Plan — North Region — North Region — North Region — North Region — North Region",
           "owner": "Avery Morgan",
           "priority": "Low",
           "dueDate": "2026-08-01",
-          "notes": "Demo performance reporting record for north region; verify evidence and next action before completion. — North Region"
+          "notes": "Demo performance reporting record for north region; verify evidence and next action before completion. — North Region — North Region — North Region — North Region"
         },
         {
           "id": "performance-reporting-002",
           "state": "requested",
           "reference": "ELDER-CARE-0002",
-          "subject": "AI Plan — Enterprise Account — Enterprise Account",
+          "subject": "AI Plan — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "owner": "Jordan Lee",
           "priority": "Medium",
-          "dueDate": "2026-08-04",
-          "notes": "Demo performance reporting record for enterprise account; verify evidence and next action before completion. — Enterprise Account"
+          "dueDate": "2026-08-07",
+          "notes": "Demo performance reporting record for enterprise account; verify evidence and next action before completion. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "performance-reporting-003",
           "state": "requested",
           "reference": "ELDER-CARE-0003",
-          "subject": "AI Plan — Quarterly Cycle — Quarterly Cycle",
+          "subject": "AI Plan — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "owner": "Taylor Brooks",
           "priority": "High",
-          "dueDate": "2026-08-07",
-          "notes": "Demo performance reporting record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle"
+          "dueDate": "2026-08-13",
+          "notes": "Demo performance reporting record for quarterly cycle; verify evidence and next action before completion. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "performance-reporting-004",
           "state": "requested",
           "reference": "ELDER-CARE-0004",
-          "subject": "AI Plan — Priority Queue — Priority Queue",
+          "subject": "AI Plan — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "owner": "Morgan Chen",
           "priority": "Critical",
-          "dueDate": "2026-08-10",
-          "notes": "Demo performance reporting record for priority queue; verify evidence and next action before completion. — Priority Queue"
+          "dueDate": "2026-08-19",
+          "notes": "Demo performance reporting record for priority queue; verify evidence and next action before completion. — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "performance-reporting-005",
           "state": "requested",
           "reference": "ELDER-CARE-0005",
-          "subject": "AI Plan — Operations Review — Operations Review",
+          "subject": "AI Plan — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "owner": "Riley Patel",
           "priority": "Low",
-          "dueDate": "2026-08-13",
-          "notes": "Demo performance reporting record for operations review; verify evidence and next action before completion. — Operations Review"
+          "dueDate": "2026-08-25",
+          "notes": "Demo performance reporting record for operations review; verify evidence and next action before completion. — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "performance-reporting-006",
           "state": "requested",
           "reference": "ELDER-CARE-0006",
-          "subject": "AI Plan — Customer Request — Customer Request",
+          "subject": "AI Plan — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "owner": "Casey Nguyen",
           "priority": "Medium",
-          "dueDate": "2026-08-16",
-          "notes": "Demo performance reporting record for customer request; verify evidence and next action before completion. — Customer Request"
+          "dueDate": "2026-08-31",
+          "notes": "Demo performance reporting record for customer request; verify evidence and next action before completion. — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "performance-reporting-007",
           "state": "requested",
           "reference": "ELDER-CARE-0007",
-          "subject": "AI Plan — Compliance Check — Compliance Check",
+          "subject": "AI Plan — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "owner": "Cameron Diaz",
           "priority": "High",
-          "dueDate": "2026-08-19",
-          "notes": "Demo performance reporting record for compliance check; verify evidence and next action before completion. — Compliance Check"
+          "dueDate": "2026-09-06",
+          "notes": "Demo performance reporting record for compliance check; verify evidence and next action before completion. — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "performance-reporting-008",
           "state": "requested",
           "reference": "ELDER-CARE-0008",
-          "subject": "AI Plan — Service Window — Service Window",
+          "subject": "AI Plan — Service Window — Service Window — Service Window — Service Window — Service Window",
           "owner": "Drew Wilson",
           "priority": "Critical",
-          "dueDate": "2026-08-22",
-          "notes": "Demo performance reporting record for service window; verify evidence and next action before completion. — Service Window"
+          "dueDate": "2026-09-12",
+          "notes": "Demo performance reporting record for service window; verify evidence and next action before completion. — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "performance-reporting-009",
           "state": "requested",
           "reference": "ELDER-CARE-0009",
-          "subject": "AI Plan — Quality Sample — Quality Sample",
+          "subject": "AI Plan — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "owner": "Emerson Clark",
           "priority": "Low",
-          "dueDate": "2026-08-25",
-          "notes": "Demo performance reporting record for quality sample; verify evidence and next action before completion. — Quality Sample"
+          "dueDate": "2026-09-18",
+          "notes": "Demo performance reporting record for quality sample; verify evidence and next action before completion. — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "performance-reporting-010",
           "state": "requested",
           "reference": "ELDER-CARE-0010",
-          "subject": "AI Plan — Management Review — Management Review",
+          "subject": "AI Plan — Management Review — Management Review — Management Review — Management Review — Management Review",
           "owner": "Hayden Kim",
           "priority": "Medium",
-          "dueDate": "2026-08-28",
-          "notes": "Demo performance reporting record for management review; verify evidence and next action before completion. — Management Review"
+          "dueDate": "2026-09-24",
+          "notes": "Demo performance reporting record for management review; verify evidence and next action before completion. — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "performance-reporting-011",
           "state": "requested",
           "reference": "ELDER-CARE-0011",
-          "subject": "AI Plan — Exception Follow-up — Exception Follow-up",
+          "subject": "AI Plan — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "owner": "Jamie Rivera",
           "priority": "High",
-          "dueDate": "2026-08-31",
-          "notes": "Demo performance reporting record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up"
+          "dueDate": "2026-09-30",
+          "notes": "Demo performance reporting record for exception follow-up; verify evidence and next action before completion. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "performance-reporting-012",
           "state": "requested",
           "reference": "ELDER-CARE-0012",
-          "subject": "AI Plan — Evidence Package — Evidence Package",
+          "subject": "AI Plan — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "owner": "Kai Thompson",
           "priority": "Critical",
-          "dueDate": "2026-09-03",
-          "notes": "Demo performance reporting record for evidence package; verify evidence and next action before completion. — Evidence Package"
+          "dueDate": "2026-10-06",
+          "notes": "Demo performance reporting record for evidence package; verify evidence and next action before completion. — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "performance-reporting-013",
           "state": "requested",
           "reference": "ELDER-CARE-0013",
-          "subject": "AI Plan — Planning Cycle — Planning Cycle",
+          "subject": "AI Plan — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "owner": "Logan Shah",
           "priority": "Low",
-          "dueDate": "2026-09-06",
-          "notes": "Demo performance reporting record for planning cycle; verify evidence and next action before completion. — Planning Cycle"
+          "dueDate": "2026-10-12",
+          "notes": "Demo performance reporting record for planning cycle; verify evidence and next action before completion. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "performance-reporting-014",
           "state": "requested",
           "reference": "ELDER-CARE-0014",
-          "subject": "AI Plan — Performance Review — Performance Review",
+          "subject": "AI Plan — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "owner": "Parker Evans",
           "priority": "Medium",
-          "dueDate": "2026-09-09",
-          "notes": "Demo performance reporting record for performance review; verify evidence and next action before completion. — Performance Review"
+          "dueDate": "2026-10-18",
+          "notes": "Demo performance reporting record for performance review; verify evidence and next action before completion. — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "performance-reporting-015",
           "state": "requested",
           "reference": "ELDER-CARE-0015",
-          "subject": "AI Plan — Final Verification — Final Verification",
+          "subject": "AI Plan — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "owner": "Quinn Murphy",
           "priority": "High",
-          "dueDate": "2026-09-12",
-          "notes": "Demo performance reporting record for final verification; verify evidence and next action before completion. — Final Verification"
+          "dueDate": "2026-10-24",
+          "notes": "Demo performance reporting record for final verification; verify evidence and next action before completion. — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     }

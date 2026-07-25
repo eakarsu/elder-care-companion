@@ -11,12 +11,12 @@
     "AIMentalHealthCompanion",
     "AINutritionDietitianAssistant"
   ],
-  "featureCount": 195,
-  "candidateFeatureCount": 285,
-  "eliminatedSimilarFeatures": 90,
-  "evidenceCount": 365,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 199,
+  "candidateFeatureCount": 287,
+  "eliminatedSimilarFeatures": 88,
+  "evidenceCount": 385,
+  "aiPageCount": 17,
+  "sourceAIPageCount": 17,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 5,
     "seededRows": 75
   },
-  "visibleFeatureCount": 3,
+  "visibleFeatureCount": 17,
   "featureVisibilityMode": "seeded-or-ai"
 }

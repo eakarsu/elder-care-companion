@@ -56,9 +56,11 @@
     "canonicalKey": "advance directive summarizer",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/AdvancedAITools?tool=advance-directive-summarizer",
       "/advance-directive-summarizer"
     ],
     "sourceProjects": [
@@ -68,6 +70,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/AdvancedAITools.js:6",
+        "route": "/AdvancedAITools?tool=advance-directive-summarizer",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIHospiceCareManager",
@@ -157,6 +166,58 @@
         "sourceProject": "AINutritionDietitianAssistant",
         "path": "server/index.js:543",
         "route": "/api/supplements/ai-advise",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Care Assistant",
+    "canonicalKey": "ai assistant care",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-assistant"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/AIAssistant.js:1",
+        "route": "/ai-assistant",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "AI Care Chat",
+    "canonicalKey": "ai care chat",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/caregiver-chat"
+    ],
+    "sourceProjects": [
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/CaregiverChat.js:1",
+        "route": "/caregiver-chat",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       }
     ]
@@ -696,6 +757,71 @@
         "sourceProject": "AINutritionDietitianAssistant",
         "path": "server/index.js:814",
         "route": "/api/ai/allergy-detection",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Analyze",
+    "canonicalKey": "analyze",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/:id/analyze",
+      "/analyze",
+      "/gratitude",
+      "/journal"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/GratitudePage.jsx:1",
+        "route": "/gratitude",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/JournalPage.jsx:1",
+        "route": "/journal",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/gratitude.js:91",
+        "route": "/:id/analyze",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/journal.js:118",
+        "route": "/:id/analyze",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/moods.js:149",
+        "route": "/:id/analyze",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/sleep.js:85",
+        "route": "/analyze",
         "originApp": "healthcare-life-sciences/elder-care-companion"
       }
     ]
@@ -1444,12 +1570,10 @@
       "AIElderCareCompanion",
       "AIMentalHealthCompanion",
       "AINutritionDietitianAssistant",
-      "AIhomecompanion",
       "healthcare"
     ],
     "consolidatedFromApps": [
       "healthcare-life-sciences/ambulance-ems-dispatch",
-      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/elder-care-companion",
       "healthcare-life-sciences/hipaa-training-compliance-auditor"
     ],
@@ -1460,20 +1584,6 @@
         "path": "backend/src/routes/agenticPharmacist.js:12",
         "route": "/chat",
         "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIhomecompanion",
-        "path": "backend/governance/aiRoutes.js:32",
-        "route": "/chat",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIhomecompanion",
-        "path": "backend/routes/ai.js:21",
-        "route": "/chat",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
       },
       {
         "kind": "api",
@@ -1929,9 +2039,11 @@
     "canonicalKey": "coping recommendation",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=coping-recommendation",
       "/coping-recommendation"
     ],
     "sourceProjects": [
@@ -1941,6 +2053,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx:30",
+        "route": "/ai-tools?tool=coping-recommendation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
@@ -2029,9 +2148,11 @@
     "canonicalKey": "assessment crisis",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=crisis-assessment",
       "/crisis-assessment"
     ],
     "sourceProjects": [
@@ -2041,6 +2162,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx:19",
+        "route": "/ai-tools?tool=crisis-assessment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
@@ -2635,9 +2763,11 @@
     "canonicalKey": "agenda family generator meeting",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/AdvancedAITools?tool=family-meeting-agenda-generator",
       "/family-meeting-agenda-generator"
     ],
     "sourceProjects": [
@@ -2647,6 +2777,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/AdvancedAITools.js:17",
+        "route": "/AdvancedAITools?tool=family-meeting-agenda-generator",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIHospiceCareManager",
@@ -3692,6 +3829,56 @@
     ]
   },
   {
+    "name": "Generate",
+    "canonicalKey": "generate",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/affirmations",
+      "/generate",
+      "/meditation"
+    ],
+    "sourceProjects": [
+      "AIMentalHealthCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AffirmationsPage.jsx:1",
+        "route": "/affirmations",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/MeditationPage.jsx:1",
+        "route": "/meditation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/affirmations.js:101",
+        "route": "/generate",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "server/routes/meditation.js:111",
+        "route": "/generate",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
     "name": "Goals",
     "canonicalKey": "goal",
     "aliases": [
@@ -4457,9 +4644,11 @@
     "canonicalKey": "journal sentiment",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=journal-sentiment",
       "/journal-sentiment"
     ],
     "sourceProjects": [
@@ -4469,6 +4658,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx:8",
+        "route": "/ai-tools?tool=journal-sentiment",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
@@ -4779,6 +4975,7 @@
     "canonicalKey": "alert interaction medication",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
@@ -4793,6 +4990,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/pages/MedicationInteractionAlert.js:1",
+        "route": "/medication-interaction-alert",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIElderCareCompanion",
@@ -5043,9 +5247,11 @@
     "canonicalKey": "analysis mood trend",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=mood-trend-analysis",
       "/mood-trend-analysis"
     ],
     "sourceProjects": [
@@ -5055,6 +5261,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx:67",
+        "route": "/ai-tools?tool=mood-trend-analysis",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
@@ -5337,26 +5550,34 @@
     "canonicalKey": "recommend",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/recommend"
+      "/breathing",
+      "/recommend",
+      "/selfcare"
     ],
     "sourceProjects": [
-      "AIMentalHealthCompanion",
-      "industrial-capabilities-in-space"
+      "AIMentalHealthCompanion"
     ],
     "consolidatedFromApps": [
-      "healthcare-life-sciences/elder-care-companion",
-      "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "industrial-capabilities-in-space",
-        "path": "backend/routes/launch-economics.js:235",
-        "route": "/recommend",
-        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/BreathingPage.jsx:1",
+        "route": "/breathing",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/SelfCarePage.jsx:1",
+        "route": "/selfcare",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
       },
       {
         "kind": "api",
@@ -5567,9 +5788,11 @@
     "canonicalKey": "advisor sleep",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=sleep-advisor",
       "/sleep-advisor"
     ],
     "sourceProjects": [
@@ -5579,6 +5802,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx:55",
+        "route": "/ai-tools?tool=sleep-advisor",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
@@ -5941,9 +6171,11 @@
     "canonicalKey": "match therapist",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-tools?tool=therapist-match",
       "/therapist-match"
     ],
     "sourceProjects": [
@@ -5953,6 +6185,13 @@
       "healthcare-life-sciences/elder-care-companion"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/AIToolsPage.jsx:42",
+        "route": "/ai-tools?tool=therapist-match",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
       {
         "kind": "api",
         "sourceProject": "AIMentalHealthCompanion",
